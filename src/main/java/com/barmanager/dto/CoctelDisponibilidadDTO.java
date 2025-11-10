@@ -14,6 +14,7 @@ public class CoctelDisponibilidadDTO {
     private double porcentajeDisponibilidad;
     private List<String> insumosFaltantes;
     private boolean tieneSustituciones;
+    private String dificultad;
     
     // Getters y Setters
     public int getCoctelId() { return coctelId; }
@@ -55,4 +56,7 @@ public class CoctelDisponibilidadDTO {
     public void setTieneSustituciones(boolean tieneSustituciones) { 
         this.tieneSustituciones = tieneSustituciones; 
     }
+
+    public String getDificultad() { return dificultad; }
+    public void setDificultad(String dificultad) { this.dificultad = dificultad; }
 }

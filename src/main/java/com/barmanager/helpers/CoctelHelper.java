@@ -28,6 +28,7 @@ public class CoctelHelper {
         dto.setNombreCoctel(coctel.getNombre());
         dto.setDescripcion(coctel.getDescripcion());
         dto.setCategoria(coctel.getCategoria().getDescripcion());
+        dto.setDificultad(coctel.getDificultad().getDescripcion());
         
         List<Ingrediente> ingredientes = ingredienteRepository.findByCoctelId(coctel.getId());
         List<Ingrediente> obligatorios = ingredientes.stream()
