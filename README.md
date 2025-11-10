@@ -10,4 +10,5 @@ Sistema de gestion de bar con Spring Boot
 
 ## Documentación
 
+<img width="1196" height="1490" alt="uml_diagram" src="https://github.com/user-attachments/assets/61389071-3e12-4419-b6be-08b14dcfb6ac" />
 
